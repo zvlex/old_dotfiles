@@ -1,5 +1,6 @@
 # My Emacs dotfiles
 
+## TODO: Refactor and move config to separate files
 [![Emacs](https://github.com/zvlex/dotfiles/blob/master/img/dotemacs.png)](https://github.com/zvlex/dotfiles)
 
 ## Fonts
