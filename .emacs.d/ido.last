@@ -1,0 +1,289 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/zvlex/devz/code/other/" . "awesome_reading_list/")
+ ("/home/zvlex/devz/zvlex.github.io/_examples/" . "vue-comments/")
+ ("/home/zvlex/devz/code/rails/zvample/app/views/vue_templates/" . "comments/")
+ ("/home/zvlex/devz/code/rails/zvample/app/" . "serializers/")
+ ("/home/zvlex/devz/code/rails/gitlab/app/" . "models/")
+ ("/home/zvlex/devz/code/rails/gitlab/" . "app/")
+ ("/home/zvlex/devz/code/rails/" . "gitlab/")
+ ("/home/zvlex/devz/_ex/" . "shopper/")
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/lib/rails/" . "generators/")
+ ("/home/zvlex/devz/code/ruby/metaprog2/" . "r2/")
+ ("/home/zvlex/devz/code/ruby/" . "metaprog2/")
+ ("/home/zvlex/devz/code/" . "rails/")
+ ("/home/" . "zvlex/")
+ ("/home/zvlex/devz/zvlex.github.io/" . "_examples/")
+ ("/home/zvlex/devz/" . "code/")
+ ("/home/zvlex/devz/zvlex.github.io/source/" . "layouts/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-4.2.4/" . "lib/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/" . "activerecord-4.2.4/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/" . "gems/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/" . "2.2.0/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/" . "gems/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/x86_64-linux/" . "ruby/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/" . "x86_64-linux/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/" . "ruby-2.2.0/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/" . "ruby/")
+ ("/home/zvlex/.rbenv/versions/2.2.3/" . "lib/")
+ ("/home/zvlex/.rbenv/versions/" . "2.2.3/")
+ ("/home/zvlex/.rbenv/" . "versions/")
+ ("/home/zvlex/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/zvlex/"
+ "/home/zvlex/devz/code/other/awesome_reading_list/"
+ "/home/zvlex/devz/code/rails/zvample/app/serializers/"
+ "/home/zvlex/devz/code/ruby/"
+ "/home/zvlex/devz/code/"
+ "/home/zvlex/.emacs.d/"
+ "/home/zvlex/.oh-my-zsh/"
+ "/home/zvlex/bin/"
+ "/home/zvlex/devz/code/rails/zvample/app/assets/javascripts/components/"
+ "/home/zvlex/devz/zvlex.github.io/_examples/vue-comments/"
+ "/home/zvlex/devz/code/elixir/"
+ "/home/zvlex/devz/code/crystal/"
+ "/home/zvlex/devz/zvlex.github.io/"
+ "/home/zvlex/devz/zvlex.github.io/_plugins/"
+ "/home/zvlex/devz/zvlex.github.io/js/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/vue_templates/comments/"
+ "/home/zvlex/devz/code/rails/zvample/app/controllers/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/sessions/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/user_mailer/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/shared/"
+ "/home/zvlex/devz/code/rails/zvample/config/initializers/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/users/"
+ "/home/zvlex/devz/code/rails/zvample/db/migrate/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/"
+ "/home/zvlex/devz/code/rails/zvample/app/assets/javascripts/"
+ "/home/zvlex/devz/code/rails/zvample/app/views/posts/"
+ "/home/zvlex/devz/code/rails/zvample/"
+ "/home/zvlex/devz/code/ruby/gof/"
+ "/home/zvlex/devz/code/rails/gitlab/app/models/"
+ "/home/zvlex/devz/code/rails/gitlab/"
+ "/home/zvlex/devz/_ex/shopper/"
+ "/home/zvlex/devz/code/ruby/create_sinatra/"
+ "/home/zvlex/devz/code/ruby/metaprog2/r2/"
+ "/home/zvlex/devz/zvlex.github.io/source/layouts/"
+ "/home/zvlex/devz/zvlex.github.io/source/stylesheets/"
+ "/home/zvlex/devz/code/ruby/metaprog2/"
+ "/home/zvlex/devz/code/ruby/workhorse/lib/"
+ "/home/zvlex/devz/code/ruby/workhorse/"
+ "/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-4.2.4/lib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "README.md"
+ "user_front_data_serializer.rb"
+ "comment_serializer.rb"
+ "telegram_bot.rb"
+ "projectile-bookmarks.eld"
+ "oh-my-zsh.sh"
+ ".zshrc"
+ "edit"
+ "comment_notification_list.js.coffee"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/zvlex/" (22114 1748 919581 195000) ".vimrc" ".emacs_workgroups" ".vscode/" ".gnupg/" ".psql_history" ".FBReader/" ".local/" ".zcompdump-thinkpad-5.0.7" ".gitconfig" ".viminfo" "Desktop/" ".RubyMine80/" "devz/" ".gconf/" ".zcompdump" ".pry_history" "Pictures/" ".zcompdump-thinkpad-5.1.1" ".lesshst" ".adobe/" ".Xauthority" ".docsets/" ".byebug_hist" ".gem/" ".wireshark/" "Templates/" ".compiz/" ".sudo_as_admin_successful" ".dropbox-dist/" ".emacs" ".cache/" "Downloads/" ".xinputrc" "../" ".pam_environment" ".mplayer/" ".dbus/" ".dmrc" ".vim/" ".ICEauthority" ".Skype/" ".xsession-errors.old" "Documents/" ".gnome/" ".bashrc" "pgadmin.log" ".dropbox/" ".-rplugin~" ".gimp-2.8/" "./" ".pgadmin_histoqueries" ".profile" ".m2/" ".atom/" ".gnome2/" ".npm/" ".pgadmin3" ".pgpass" ".rbenv/" ".macromedia/" ".bash_history" ".node-gyp/" ".thumbnails/" "Music/" ".oh-my-zsh/" "VirtualBox VMs/" ".TelegramDesktop/" ".gnome2_private/" ".zsh_history" ".java/" ".xsession-errors" ".lein/" "Dropbox/" ".yandex/" ".zshrc" ".pySopCast/" "examples.desktop" ".mozilla/" "Public/" ".config/" ".bash_logout" "Yandex.Disk/" ".zsh-update" ".emacs.d/" ".tmux.conf" "Videos/" ".pki/")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/models/" (22113 59033 44140 468000) "user.rb" "../" "./" "concerns/" "post.rb" "comment.rb" ".keep")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/assets/stylesheets/" (22113 60039 375347 50000) "application.css" "../" "frontend/" "./" "posts.scss")
+
+ ("/home/zvlex/devz/code/other/awesome_reading_list/" (22113 20589 830266 563000) ".git/" "../" "README.md" "./")
+
+ ("/home/zvlex/devz/code/other/" (22113 20587 954247 591000) "app_new.zip" "../" "gtu/" "./" "app/" "awesome_reading_list/")
+
+ ("/home/zvlex/devz/code/rails/zvample/db/migrate/" (22112 34477 369977 196000) "../" "20151111154655_sorcery_core.rb" "20151103095347_create_comments.rb" "20151112123948_add_is_admin_to_users.rb" "./" "20151203181509_add_tree_to_comments.rb" "20151031194302_create_posts.rb" "20151112094518_sorcery_user_activation.rb" "20151114124649_change_users_fields.rb" "20151111154656_sorcery_remember_me.rb" "20151112210217_sorcery_reset_password.rb")
+
+ ("/home/zvlex/devz/code/rails/zvample/config/initializers/" (22112 16167 922836 398000) "mime_types.rb" "simple_form.rb" "../" "session_store.rb" "cookies_serializer.rb" "./" "backtrace_silencers.rb" "assets.rb" "wrap_parameters.rb" "sorcery.rb" "filter_parameter_logging.rb" "inflections.rb" "serializer_config.rb")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/controllers/" (22112 39031 425326 878000) "../" "application_controller.rb" "sessions_controller.rb" "admin/" "./" "concerns/" "posts_controller.rb" "comments_controller.rb" "password_resets_controller.rb" "users_controller.rb")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/vue_templates/comments/" (22112 20789 760079 45000) "../" "_comment_box_tpl.html.haml" "_comment_form_tpl.html.haml" "./" "_comment_list_tpl.html.haml" "_comment_tpl.html.haml" "_comment_notification_list_tpl.html.haml")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/assets/javascripts/components/" (22112 13620 91966 857000) "comment_box.js.coffee" ".gitkeep" "comment_list.js.coffee" "../" "comment_form.js.coffee" "./" "comment_notification_list.js.coffee" "comment.js.coffee")
+
+ ("/home/zvlex/.emacs.d/" (22112 39957 444756 778000) "url/" "projectile-bookmarks.eld" "../" "eshell/" "thumbs/" "lisp/" "./" "ido.last" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" "elpa/")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/serializers/" (22112 37170 992392 293000) "user_front_data_serializer.rb" "../" "./" "comment_serializer.rb")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/assets/javascripts/" (22111 4730 928215 535000) "../" "application.js.coffee" "routes.js.erb" "./" "components/")
+
+ ("/home/zvlex/devz/code/ruby/" (22107 18644 634484 396000) "parse_xml.rb" "mash.rb" "telegram_bot.rb" "hello.rb" "rspec_book/" "pickaxe/" "gof/" "fetch_podcast.rb" "patterns/" "heredoc.rb" "some.rb" "my_fork.rb" "singleton.rb" "f.rb" "algo/" "../" "opa.rb" "gtk/" "habr.rb" "table.rb" "metaprog2/" ".idea/" "./" "state/" "workhorse/" "create_sinatra/" "some2.rb" "gosu_grid-0.0.1/" "feed_parse.rb")
+
+ ("/home/zvlex/.emacs.d/elpa/" (22110 42859 485212 984000) "rainbow-mode-0.12.signed" "gnupg/" "darcula-theme-20150629.235/" "auto-complete-20151112.2030/" "rspec-mode-20151003.315/" "rbenv-20141119.2349/" "dash-20151021.113/" "elixir-yasnippets-20150417.539/" "zenburn-theme-20151101.1158/" "simple-httpd-20150430.1755/" "colorsarenice-theme-20150421.1336/" "sr-speedbar-20150804.951/" "with-editor-20151126.323/" "pkg-info-20150517.443/" "base16-theme-20151019.711/" "warm-night-theme-20150607.741/" "slime-20151126.1104/" "enh-ruby-mode-20151123.141/" "inf-ruby-20151104.1237/" "jsx-mode-20130908.1024/" "magit-popup-20151126.343/" "expand-region-20150902.558/" "helm-core-20151123.253/" "yaml-mode-20150816.2235/" "markdown-mode-20151108.735/" "comment-dwim-2-20150825.1549/" "scss-mode-20150107.1400/" "async-20151123.256/" "skewer-mode-20150914.1304/" "fringe-helper-20140620.1409/" "ac-js2-20140906.442/" "../" "abyss-theme-readme.txt" "coffee-mode-20151019.2009/" "ruby-compilation-20150708.2340/" "ruby-hash-syntax-20141010.839/" "js2-mode-20151116.1709/" "archives/" "popup-20151125.542/" "json-mode-20151116.2000/" "git-commit-20151111.418/" "dash-20150829.433/" "go-mode-20150817.2318/" "autopair-20140825.427/" "anti-zenburn-theme-20151103.1646/" "with-editor-20150903.1204/" "json-snatcher-20150511.2047/" "web-mode-20151128.1021/" "git-gutter-fringe-20150331.2139/" "./" "helm-20151126.607/" "magit-20151127.215/" "inflections-20121016.157/" "git-gutter-20151122.1739/" "jump-20151009.129/" "whitespace-cleanup-mode-20150603.447/" "elixir-mode-20151125.2105/" "clojure-mode-20151127.516/" "sass-mode-20150508.2012/" "highlight-indentation-20150307.208/" "stekene-theme-20141108.1211/" "haml-mode-20150508.2011/" "projectile-20151111.2318/" "rainbow-mode-0.12/" "grizzl-20150711.2230/" "helm-dash-20151127.1339/" "multiple-cursors-20150710.456/" "darktooth-theme-20151121.1722/" "findr-20130824.507/" "yasnippet-20151126.518/" "react-snippets-20151104.1540/" "rinari-20150708.2340/" "firecode-theme-20141115.2302/" "magit-readme.txt" "git-commit-20150903.1204/" "clojure-snippets-20150504.144/" "gruvbox-theme-20150729.341/" "json-reformat-20151007.1728/" "epl-20150517.433/")
+
+ ("/home/zvlex/.emacs.d/elpa/rbenv-20141119.2349/" (22110 42860 57242 387000) "rbenv-autoloads.el" "../" "rbenv-pkg.elc" "rbenv-pkg.el" "./" "rbenv.el" "rbenv.elc")
+
+ ("/home/zvlex/devz/code/rails/zvample/config/" (22109 46542 812322 338000) "initializers/" "secrets.yml" "environments/" "database.yml" "secrets.yml.example" "routes.rb" "../" "locales/" ".#database.yml" "boot.rb" "./" "application.rb" "environment.rb")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/posts/" (22103 4549 762308 789000) "index.html.haml" "../" "show.html.haml" "./")
+
+ ("/home/zvlex/devz/" (22102 53044 690792 416000) "archive/" "code/" "working_js.zip" "zvlex.github.io.zip" "../" "docs/" "working.txt" "./" "zvlex.github.io/" "dotfiles/" "_ex/" "working.mp4" "x3zf/" "new/")
+
+ ("/home/zvlex/devz/code/rails/" (22101 54663 538428 398000) "my_api/" "wunderkind/" "book_share/" "podr/" "zvample/" "../" "./" "gitlab/")
+
+ ("/home/zvlex/devz/code/rails/zvample/" (22102 57031 698514 2000) "tmp/" "Gemfile" "config.ru" ".gitignore" "lib/" "vendor/" "public/" ".git/" "../" "README.rdoc" "config/" "Gemfile.lock" "db/" "./" "bin/" "Rakefile" "app/" "log/")
+
+ ("/home/zvlex/devz/zvlex.github.io/" (22096 55822 666334 608000) "_plugins/" ".gitignore" "_includes/" "css/" ".git/" "js/" "../" "_layouts/" "app.js" "_sass/" "./" "_config.yml" "index.html" ".sass-cache/" "_posts/" "Rakefile" "feed.xml" "_site/" "about.md" "vue_comments.html")
+
+ ("/home/zvlex/devz/code/crystal/" (22101 32377 886367 819000) "person.cr" "test.cr" "bloks_procs.cr" ".crystal/" "erlang-solutions_1.0_all.deb" "../" "server.cr" "simple-app/" "2048.cr" "conway.cr" "hello_world.cr" "./")
+
+ ("/home/zvlex/bin/" (22104 43782 69966 506000) "edit" "../" "./")
+
+ ("/home/zvlex/.oh-my-zsh/" (22098 56167 114351 810000) "MIT-LICENSE.txt" ".gitignore" "cache/" "lib/" "custom/" "templates/" "oh-my-zsh.sh" ".git/" "../" "README.markdown" "./" "plugins/" "log/" "tools/" "themes/")
+
+ ("/home/zvlex/devz/code/" (22095 39221 441844 66000) "cpp/" "elixir/" "js/" "../" "rails/" "ruby/" "lisp/" "./" "other/" "crystal/")
+
+ ("/home/zvlex/devz/code/crystal/simple-app/" (22098 2118 748877 666000) "LICENSE" ".shards/" ".gitignore" ".crystal/" ".git/" "../" "simple-app" "src/" "spec/" ".travis.yml" "README.md" "./" "shard.yml" "shard.lock" "libs/")
+
+ ("/home/zvlex/devz/code/crystal/simple-app/src/" (22098 1903 802890 88000) "simple-app.cr" "../" "simple-app/" "./")
+
+ ("/home/zvlex/devz/zvlex.github.io/_examples/vue-comments/src/" (22096 20050 916176 949000) "../" "./")
+
+ ("/home/zvlex/devz/zvlex.github.io/_examples/vue-comments/" (22096 20050 916176 949000) "webpack.config.js" "vue.js" "../" "app.js" "src/" "node_modules/" "./" "package.json" "index.html" "app.css")
+
+ ("/home/zvlex/devz/zvlex.github.io/_examples/" (22096 14025 634677 813000) "../" "./" "vue-comments/")
+
+ ("/home/zvlex/devz/code/elixir/" (22095 37837 171058 858000) "../" "hello_world.exs" "./")
+
+ ("/home/zvlex/devz/zvlex.github.io/_posts/" (22096 14034 498810 595000) "2015-11-21-introdution-into-vue-js.md" "../" "2015-11-18-welcome-to-jekyll.markdown" "./")
+
+ ("/home/zvlex/.emacs.d/elpa/elixir-mode-20151028.10/" (22095 37565 140424 815000) "elixir-mode-pkg.el" "elixir-smie.el" "elixir-mode.el" "../" "elixir-mode.elc" "elixir-mode-autoloads.el" "elixir-smie.elc" "./")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/assets/stylesheets/frontend/" (22095 35142 988759 44000) "main.css.sass" "../" "./")
+
+ ("/home/zvlex/devz/zvlex.github.io/js/" (22092 33723 663857 728000) "application.coffee" "../" "./" "vue_init.coffee")
+
+ ("/home/zvlex/devz/zvlex.github.io/_plugins/" (22092 32441 153233 773000) "../" "./")
+
+ ("/home/zvlex/devz/code/js/vuejs/vue-series/2/" (22093 36875 874336 941000) "../" "./")
+
+ ("/home/zvlex/devz/code/ruby/gof/" (22090 60851 835745 838000) "Gemfile" "lib/" "images/" ".git/" "../" "Gemfile.lock" "README.md" "game_of_life.rb" "./")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/" (22090 2662 877078 455000) "posts/" "users/" "../" "./" "layouts/" "_vue_templates.html.haml" "password_resets/" "vue_templates/" "sessions/" "user_mailer/" "shared/")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/users/" (22085 2004 120297 415000) "new.html.haml" "edit.html.haml" "../" "edit.html.haml~" "./" "_form.html.haml")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/user_mailer/" (22085 1788 79234 394000) "reset_password_email.html.haml" "../" "activation_success_email.html.haml" "./" "activation_needed_email.html.haml")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/sessions/" (22085 1081 934567 628000) "new.html.haml" "../" "./" "_form.html.haml")
+
+ ("/home/zvlex/.emacs.d/elpa/helm-dash-20151102.409/" (22087 5512 564346 461000) "helm-dash-pkg.el" "helm-dash.el" "../" "helm-dash-autoloads.el" "./" "helm-dash-pkg.elc" "helm-dash.elc")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/password_resets/" (22085 384 766954 623000) "../" "./")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/shared/" (22084 61341 891351 103000) "../" "./" "_flash_messages.html.haml")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/" (22084 30781 263875 487000) "assets/" "helpers/" "models/" "../" "dashboards/" "controllers/" "mailers/" "views/" "./" "serializers/")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/dashboards/" (22084 52634 690417 832000) "comment_dashboard.rb" "post_dashboard.rb" "../" "./" "user_dashboard.rb" "dashboard_manifest.rb")
+
+ ("/home/zvlex/devz/_ex/shopper/" (22076 33432 455005 138000) "tmp/" "Gemfile" "config.ru" ".gitignore" "Capfile" "lib/" "vendor/" "public/" ".git/" "../" "docs/" "config/" ".ruby-gemset" "Gemfile.lock" "spec/" "db/" "README.md" ".idea/" "./" "bin/" ".rvmrc" "Rakefile" "vexor.yml" ".ruby_version" "app/" ".ruby-version" ".rspec" "log/" ".projectile")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/views/vue_templates/" (22076 32925 644541 943000) "../" "./" "comments/")
+
+ ("/home/zvlex/devz/code/rails/gitlab/" (22071 49895 74135 536000) "LICENSE" "tmp/" ".secret" "Gemfile" "scripts/" "config.ru" ".gitignore" "docker-compose.yml" "CHANGELOG" "GITLAB_SHELL_VERSION" "builds/" ".gitlab_shell_secret" "lib/" "PROCESS.md" "vendor/" ".simplecov" "docker/" "public/" "../" "doc/" "config/" "Procfile" "Gemfile.lock" "VERSION" "spec/" "doc_styleguide.md" ".foreman" "db/" "README.md" "CONTRIBUTING.md" ".teatro.yml" ".rubocop.yml" ".idea/" "./" "bin/" ".gitlab-ci.yml" "gitlab-shell/" ".gitattributes" "Rakefile" "features/" "app/" "repositories/" ".ruby-version" ".rspec" ".pkgr.yml" ".hound.yml" "log/" "MAINTENANCE.md")
+
+ ("/home/zvlex/devz/code/rails/zvample/app/assets/" (22069 1440 846466 813000) "javascripts/" "images/" "../" "./" "stylesheets/")
+
+ ("/home/zvlex/devz/code/rails/gitlab/app/models/" (22049 8659 825819 474000) "email.rb" "group.rb" "issue.rb" "subscription.rb" "user.rb" "members/" "audit_event.rb" "security_event.rb" "generic_commit_status.rb" "project_snippet.rb" "hooks/" "wiki_page.rb" ".gitkeep" "label_link.rb" "../" "event.rb" "merge_request.rb" "milestone.rb" "application_setting.rb" "deploy_keys_project.rb" "service.rb" "notification.rb" "project_import_data.rb" "forked_project_link.rb" "merge_request_diff.rb" "commit_status.rb" "ci/" "project_services/" "./" "external_issue.rb" "abuse_report.rb" "label.rb" "protected_branch.rb" "sent_notification.rb" "personal_snippet.rb" "diff_line.rb" "commit.rb" "namespace.rb" "network/" "snippet.rb" "deploy_key.rb" "key.rb" "concerns/" "tree.rb" "project_team.rb" "repository.rb" "ability.rb" "users_star_project.rb" "project_wiki.rb" "project.rb" "commit_range.rb" "note.rb" "identity.rb" "group_milestone.rb" "broadcast_message.rb" "member.rb")
+
+ ("/home/zvlex/devz/code/rails/gitlab/app/views/groups/milestones/" (22049 6897 886320 46000) "_header_title.html.haml" "index.html.haml" "../" "_merge_requests.html.haml" "_issue.html.haml" ".#_milestone.html.haml" "show.html.haml" "./" "_issues.html.haml" "_merge_request.html.haml" "_milestone.html.haml")
+
+ ("/home/zvlex/devz/code/rails/gitlab/app/controllers/" (22048 48476 0 0) "dashboard_controller.rb" "groups/" "passwords_controller.rb" "snippets_controller.rb" "help_controller.rb" "root_controller.rb" "groups_controller.rb" "../" "projects/" "explore/" "import/" "application_controller.rb" "dashboard/" "sessions_controller.rb" "profiles/" "admin/" "namespaces_controller.rb" "invites_controller.rb" "autocomplete_controller.rb" "ci/" "./" "registrations_controller.rb" "search_controller.rb" "uploads_controller.rb" "concerns/" "oauth/" "projects_controller.rb" "profiles_controller.rb" "omniauth_callbacks_controller.rb" "confirmations_controller.rb" "users_controller.rb" "abuse_reports_controller.rb")
+
+ ("/home/zvlex/devz/code/rails/gitlab/app/" (22048 56737 148149 138000) "assets/" "uploaders/" "helpers/" "models/" "../" "controllers/" "finders/" "mailers/" "views/" "./" "workers/" "services/")
+
+ ("/home/zvlex/devz/code/ruby/create_sinatra/" (22047 44980 962687 418000) "../" "./" "nancy.rb")
+
+ ("/home/zvlex/devz/code/rails/gitlab/config/" (22049 3086 157008 642000) "initializers/" "secrets.yml" "unicorn.rb.example" "environments/" "gitlab.yml" "database.yml" "secrets.yml.example" "routes.rb" "sidekiq.yml.example" "resque.yml.example" "../" "locales/" "database.yml.mysql" "schedule.rb" "boot.rb" "./" "application.rb" "mail_room.yml" "unicorn.rb.example.development" "aws.yml.example" "gitlab.teatro.yml" "environment.rb" "newrelic.yml")
+
+ ("/home/zvlex/devz/_ex/shopper/app/models/" (22032 16790 722352 907000) "cashback_rate_modifier.rb" "search_query.rb" "paypal_payment.rb" "reward.rb" "invite.rb" "campaign.rb" "user.rb" "friend_commission.rb" "affiliate_url.rb" "user_feedback.rb" "shop.rb" "charity.rb" "traffic_campaign.rb" "competition.rb" "verified_product_link.rb" "promo_code.rb" "qiwi_payment.rb" "user_url.rb" "../" "event.rb" "commission.rb" "link.rb" "category.rb" "stat_counter.rb" "review.rb" "item_review.rb" "unsubscription.rb" "integration.rb" "jump.rb" "currency.rb" "payment.rb" "pending_reward_notice.rb" "country.rb" "unsubscription_reason.rb" "missing_order_request.rb" "track.rb" "./" "faq_data.rb" "system_message.rb" "email_advertisement.rb" "email_delivery.rb" "user_urls/" "bonus_commission.rb" "concerns/" "extension_visited_page.rb" "promo_code_activation.rb" "picture.rb" "backly_info.rb" "output_request.rb" "post.rb" ".keep" "identity.rb")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/" (22042 20987 76248 737000) "ar_attribute_methods.rb" "activerecord-4.2.4/" "greet_with_prepend.rb" "user.rb" "boss_challenge.rb" "dbfile" "example2.rb" "activesupport-4.2.4/" "greet_with_aliases.rb" "append_features.rb" "../" "instance_eval2.rb" "using_concern.rb" "chained_inclusions_broken.rb" "eval_new.rb" "duck.rb" ".idea/" "./")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/lib/rails/generators/" (22038 22355 381764 495000) "active_record.rb" "active_record/" "../" "./")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/lib/rails/" (22038 22355 381764 495000) "generators/" "../" "./")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/" (22038 22355 197716 559000) "CHANGELOG.md" "lib/" "../" "README.rdoc" "examples/" "./" "MIT-LICENSE")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/lib/" (22038 22355 381764 495000) "active_record.rb" "active_record/" "../" "rails/" "./")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/r2/activerecord-4.2.4/lib/active_record/" (22038 22355 381764 495000) "gem_version.rb" "nested_attributes.rb" "serialization.rb" "no_touching.rb" "scoping/" "railtie.rb" "schema_dumper.rb" "log_subscriber.rb" "aggregations.rb" "inheritance.rb" "autosave_association.rb" "railties/" "attribute_set.rb" "version.rb" "enum.rb" "tasks/" "explain.rb" "locale/" "migration.rb" "attribute.rb" "translation.rb" "sanitization.rb" "../" "attribute_decorators.rb" "statement_cache.rb" "fixtures.rb" "connection_adapters/" "errors.rb" "timestamp.rb" "reflection.rb" "type.rb" "persistence.rb" "scoping.rb" "integration.rb" "store.rb" "counter_cache.rb" "dynamic_matchers.rb" "readonly_attributes.rb" "null_relation.rb" "./" "schema_migration.rb" "explain_registry.rb" "query_cache.rb" "callbacks.rb" "base.rb" "attribute_methods/" "schema.rb" "querying.rb" "fixture_set/" "validations/" "attributes.rb" "relation/" "migration/" "result.rb" "core.rb" "attribute_set/" "associations.rb" "attribute_assignment.rb" "runtime_registry.rb" "type/" "connection_handling.rb" "locking/" "coders/" "model_schema.rb" "explain_subscriber.rb" "validations.rb" "association_relation.rb" "relation.rb" "attribute_methods.rb" "serializers/" "transactions.rb" "associations/")
+
+ ("/home/zvlex/devz/zvlex.github.io/source/layouts/" (22032 17375 362510 500000) "../" "layout.haml" "./")
+
+ ("/home/zvlex/devz/zvlex.github.io/source/" (22032 6011 903947 447000) "javascripts/" "tag.html.haml" "images/" "index.html.haml" "../" "feed.xml.builder" "partials/" "calendar.html.haml~" "./" "layouts/" "stylesheets/" "tag.html.erb~" "2012-01-01-example-article.html.markdown" "calendar.html.haml")
+
+ ("/home/zvlex/devz/zvlex.github.io/source/stylesheets/" (22031 55037 128532 647000) "style.css.sass" "../" "./")
+
+ ("/home/zvlex/.emacs.d/lisp/" (22031 63887 819532 888000) "linum+.el" "../" "./" ".#linum+.el")
+
+ ("/home/" (22001 40297 792230 465000) "../" "./" "zvlex/" "lost+found/")
+
+ ("/home/zvlex/devz/_ex/" (21938 30070 0 0) "system.zip" "../" "./" "logo 16 32 152.zip" "backly-2_0-main-page-unauthorised-6.jpg" "shopper/" "backly.sql" "chrome_app/")
+
+ ("/home/zvlex/devz/_ex/shopper/app/" (21934 3582 0 0) "assets/" "helpers/" "models/" "../" "controllers/" "chewy/" "mailers/" "views/" "./" "presenters/" "workers/" "services/" "serializers/")
+
+ ("/home/zvlex/devz/zvlex.github.io/source/partials/" (22031 54988 176366 918000) "_header.haml" "../" "./")
+
+ ("/home/zvlex/devz/code/ruby/metaprog2/" (22010 39602 47187 577000) "using_test.rb" "block_vals.rb" "site_point.rb" "testdb" "methods.rb" "methods2.rb" "instance_eval.rb" "ds.rb" "../" "proc_vs_lambda.rb" "roulette_failure.rb" "instance_exec.rb" "./" "using.rb" "dynamic_defenition.rb" "shared_scope.rb" "array_explorer.rb" "events.rb" "alphanumeric.rb" "computer.rb" "computer2.rb" "introspection.rb" "template.rhtml" "erb_example.rb" "redflag.rb" "r2/" "bookworm_classvars.rb" "class_eval.rb" "module_troble.rb")
+
+ ("/home/zvlex/devz/code/ruby/workhorse/lib/" (22009 33405 417518 186000) "../" "./" "workhorse.rb")
+
+ ("/home/zvlex/devz/code/ruby/workhorse/bin/" (22009 28837 909867 996000) "../" "./")
+
+ ("/home/zvlex/devz/code/ruby/workhorse/" (22009 29754 429651 825000) "Gemfile" "lib/" "../" "config.yml" "Gemfile.lock" "./" "bin/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-4.2.4/lib/" (22003 59505 514428 375000) "active_record.rb" "active_record/" "../" "rails/" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-4.2.4/" (22003 59505 466428 262000) "CHANGELOG.md" "lib/" "../" "README.rdoc" "examples/" "./" "MIT-LICENSE")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/" (22004 40053 866306 958000) "sass-3.4.18/" "rails-4.2.4/" "loofah-2.0.3/" "coffee-rails-4.1.0/" "rails-dom-testing-1.0.7/" "sqlite3-1.3.10/" "activerecord-4.2.4/" "execjs-2.6.0/" "actionpack-4.2.4/" "actionmailer-4.2.4/" "method_source-0.8.2/" "pg-0.18.3/" "rake-10.4.2/" "rack-test-0.6.3/" "nokogiri-1.6.6.2/" "sprockets-3.3.4/" "activemodel-4.2.4/" "jbuilder-2.3.1/" "activejob-4.2.4/" "builder-3.2.2/" "coderay-1.1.0/" "tilt-2.0.1/" "erubis-2.7.0/" "multi_json-1.11.2/" "tzinfo-1.2.2/" "power_assert-0.2.2/" "bundler-1.10.6/" "activesupport-4.2.4/" "../" "minitest-5.8.0/" "actionview-4.2.4/" "debug_inspector-0.0.2/" "turbolinks-2.5.3/" "thor-0.19.1/" "rack-1.6.4/" "test-unit-3.0.8/" "coffee-script-2.4.1/" "globalid-0.3.6/" "binding_of_caller-0.7.2/" "jquery-rails-4.0.5/" "./" "thread_safe-0.3.5/" "sass-rails-5.0.4/" "web-console-2.2.1/" "json-1.8.3/" "arel-6.0.3/" "railties-4.2.4/" "pry-0.10.1/" "minitest-5.4.3/" "sdoc-0.4.1/" "rdoc-4.2.0/" "byebug-6.0.2/" "sprockets-rails-2.3.3/" "mime-types-2.6.1/" "mini_portile-0.6.2/" "uglifier-2.7.2/" "slop-3.6.0/" "rails-deprecated_sanitizer-1.0.3/" "coffee-script-source-1.9.1.1/" "spring-1.3.6/" "rails-html-sanitizer-1.0.2/" "i18n-0.7.0/" "mail-2.6.3/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/" (22001 45067 166593 190000) "specifications/" "cache/" "extensions/" "../" "doc/" "./" "build_info/" "gems/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/2.2.0/" (22001 45067 166593 190000) "cgi/" "yaml.rb" "ubygems.rb" "psych/" "xmlrpc.rb" "sync.rb" "uri/" "find.rb" "uri.rb" "tracer.rb" "tempfile.rb" "drb.rb" "irb/" "csv.rb" "expect.rb" "matrix.rb" "open-uri.rb" "fileutils.rb" "resolv-replace.rb" "ripper/" "monitor.rb" "bigdecimal/" "shell.rb" "json.rb" "openssl.rb" "benchmark.rb" "rubygems/" "optparse/" "webrick.rb" "matrix/" "optionparser.rb" "rdoc/" "fiddle.rb" "singleton.rb" "rbconfig/" "debug.rb" "webrick/" "mutex_m.rb" "e2mmap.rb" "prime.rb" "openssl/" "prettyprint.rb" "shell/" "forwardable.rb" "unicode_normalize.rb" "../" "fiddle/" "rubygems.rb" "shellwords.rb" "set.rb" "ipaddr.rb" "digest/" "ostruct.rb" "pp.rb" "mkmf.rb" "abbrev.rb" "rdoc.rb" "irb.rb" "./" "net/" "io/" "ripper.rb" "cmath.rb" "profiler.rb" "yaml/" "racc/" "delegate.rb" "unicode_normalize/" "time.rb" "drb/" "digest.rb" "rake.rb" "json/" "kconv.rb" "resolv.rb" "profile.rb" "mathn.rb" "syslog/" "date.rb" "getoptlong.rb" "tmpdir.rb" "scanf.rb" "rss/" "securerandom.rb" "rinda/" "timeout.rb" "erb.rb" "observer.rb" "English.rb" "base64.rb" "pstore.rb" "rake/" "xmlrpc/" "psych.rb" "cgi.rb" "thwait.rb" "rss.rb" "weakref.rb" "pathname.rb" "un.rb" "socket.rb" "open3.rb" "x86_64-linux/" "rexml/" "tsort.rb" "logger.rb" "optparse.rb")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/vendor_ruby/" (22001 45067 154593 377000) "2.2.0/" "../" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/gems/" (22001 45067 166593 190000) "2.2.0/" "../" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/share/" (22001 45069 574555 438000) "../" "ri/" "doc/" "./" "man/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/x86_64-linux/ruby/" (22001 45067 154593 377000) "../" "config.h" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/x86_64-linux/" (22001 45067 154593 377000) "../" "ruby/" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/ruby/" (22001 45067 166593 190000) "thread_native.h" "subst.h" "re.h" "regex.h" "intern.h" "util.h" "backward/" "encoding.h" "../" "defines.h" "debug.h" "io.h" "missing.h" "./" "thread.h" "digest.h" "vm.h" "ruby.h" "oniguruma.h" "st.h" "version.h")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/ruby-2.2.0/" (22001 45067 154593 377000) "../" "ruby/" "./" "ruby.h" "x86_64-linux/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/include/" (22001 45067 114594 1000) "ruby-2.2.0/" "../" "./")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/bin/" (22004 35800 540730 163000) "irb" "tilt" "sdoc" "pry" "byebug" "rdoc" "sprockets" "bundle" "erubis" "thor" "../" "ri" "rails" "sass-convert" "bundler" "ruby" "gem" "./" "rackup" "coderay" "erb" "nokogiri" "sdoc-merge" "sass" "rake" "spring" "scss")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/ruby/" (22001 45067 166593 190000) "2.2.0/" "../" "site_ruby/" "./" "gems/" "vendor_ruby/")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/lib/" (22001 45067 10595 625000) "pkgconfig/" "../" "ruby/" "./" "libruby-static.a")
+
+ ("/home/zvlex/.rbenv/versions/2.2.3/" (22001 45067 118593 939000) "lib/" "../" "./" "bin/" "share/" "include/")
+
+ ("/home/zvlex/.rbenv/versions/" (22001 44730 941505 706000) "2.2.3/" "../" "./")
+
+ ("/home/zvlex/.rbenv/" (22001 45221 359514 608000) "LICENSE" "version" ".gitignore" "shims/" "rbenv.d/" ".git/" "../" "libexec/" "src/" ".travis.yml" "README.md" "./" "bin/" "plugins/" "completions/" "test/" "versions/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

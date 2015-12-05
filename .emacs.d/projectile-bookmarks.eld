@@ -1,0 +1,1 @@
+("~/devz/code/other/awesome_resource_list/" "~/devz/code/rails/zvample/" "~/devz/code/other/awesome_reading_list/" "~/devz/code/rails/my_api/" "~/devz/_ex/shopper/" "~/devz/code/js/vuejs/vue-webpack-comments/")
