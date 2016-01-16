@@ -34,6 +34,7 @@ Plug 'tpope/vim-haml'
 Plug 'gorodinskiy/vim-coloresque'
 
 " Git
+Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -57,6 +58,7 @@ call plug#end()
 syntax on
 
 set number
+set numberwidth=5
 set ruler
 
 set t_Co=256
@@ -120,6 +122,7 @@ set noswapfile
 let g:airline_theme = 'powerlineish'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#hunks#enabled = 0
 
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 
@@ -219,7 +222,7 @@ if !exists('g:airline_powerline_fonts')
   let g:airline#extensions#linecolumn#prefix = '¶'
   let g:airline#extensions#paste#symbol      = 'ρ'
   let g:airline_symbols.linenr    = '␊'
-  let g:airline_symbols.branch    = '⎇'
+  let g:airline_symbols.branch    = '⎇ '
   let g:airline_symbols.paste     = 'ρ'
   let g:airline_symbols.paste     = 'Þ'
   let g:airline_symbols.paste     = '∥'

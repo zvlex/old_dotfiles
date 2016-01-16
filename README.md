@@ -1,6 +1,9 @@
-# My Emacs dotfiles
+###### /me Moved to VIM
 
-###### TODO: Refactor and move config to separate files
+## VIM (current)
+
+## My Emacs dotfiles (old)
+
 [![Emacs](https://github.com/zvlex/dotfiles/blob/master/img/dotemacs.png)](https://github.com/zvlex/dotfiles)
 
 ## Fonts
