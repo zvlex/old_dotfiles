@@ -25,6 +25,9 @@ Plug 'tpope/vim-endwise'
 " JavaScript
 Plug 'mustache/vim-mustache-handlebars'
 
+" CoffeeScript
+Plug 'kchmck/vim-coffee-script'
+
 " Golang
 Plug 'fatih/vim-go'
 
@@ -57,12 +60,24 @@ call plug#end()
 "******************************
 syntax on
 
+filetype plugin indent on
+
 set number
 set numberwidth=5
+
+set showcmd
+set ttyfast
+
 set ruler
+set mouse=a
+
+set wildmenu " visual autocomplete for command menu"
+
+set fileformats=unix,dos,mac
 
 set t_Co=256
 set cursorline
+
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
