@@ -25,6 +25,9 @@ Plug 'tpope/vim-endwise'
 " JavaScript
 Plug 'mustache/vim-mustache-handlebars'
 
+" Vue.js
+Plug 'darthmall/vim-vue'
+
 " CoffeeScript
 Plug 'kchmck/vim-coffee-script'
 
@@ -40,6 +43,9 @@ Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" Auto-Complete
+Plug 'Valloric/YouCompleteMe'
 
 " Ctags
 Plug 'majutsushi/tagbar'
