@@ -73,6 +73,7 @@ set numberwidth=5
 
 set showcmd
 set ttyfast
+set hidden
 
 set ruler
 set mouse=a
