@@ -165,6 +165,9 @@ let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 
+" GitGutter Turn off default keys
+let g:gitgutter_map_keys = 0
+
 "******************************
 "" Autocmd Rules
 "******************************
@@ -204,8 +207,8 @@ let mapleader=","
 set shell=/bin/zsh
 
 " Split
-noremap <Leader>h :<C-u>split<CR>
-noremap <Leader>v :<C-u>vsplit<CR>
+noremap ,h :split<CR>
+noremap ,v :vsplit<CR>
 
 " NERDTree configuration
 nnoremap <F3> :NERDTreeToggle<CR>
