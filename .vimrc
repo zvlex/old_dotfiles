@@ -43,6 +43,7 @@ Plug 'gorodinskiy/vim-coloresque'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'junegunn/gv.vim'
 
 " Auto-Complete
 Plug 'Valloric/YouCompleteMe'
@@ -149,7 +150,7 @@ let g:airline#extensions#hunks#enabled = 0
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 
 " ctrlp.vim
-let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|tox|ico|git|hg|svn))$'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|tox|ico|git|hg|svn|cache))$'
 let g:ctrlp_use_caching = 0
 
 " Emmet
