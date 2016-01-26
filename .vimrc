@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
 " Appearance
 Plug 'bling/vim-airline'
 Plug 'joshdick/onedark.vim'
+Plug 'DAddYE/soda.vim'
 
 " Search files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -51,6 +52,10 @@ Plug 'Valloric/YouCompleteMe'
 " Ctags
 Plug 'majutsushi/tagbar'
 
+" Snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " Etc
 Plug 'scrooloose/nerdtree'
 Plug 'terryma/vim-multiple-cursors'
@@ -89,7 +94,7 @@ set cursorline
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
-colorscheme onedark
+colorscheme soda  "onedark
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
@@ -226,6 +231,11 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
+" snippets
+let g:UltiSnipsExpandTrigger="<C-j>"
+let g:UltiSnipsJumpForwardTrigger="<C-b>"
+let g:UltiSnipsJumpBackwardTrigger="<C-z>"
+let g:UltiSnipsEditSplit="vertical"
 
 "******************************
 " Airline customizations
