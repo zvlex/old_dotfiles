@@ -1,6 +1,7 @@
 ###### /me Moved to VIM
 
 ## VIM (current)
+[![VIM](https://github.com/zvlex/dotfiles/blob/master/img/myvim.png)](https://github.com/zvlex/dotfiles)
 
 ## My Emacs dotfiles (old)
 
