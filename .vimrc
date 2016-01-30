@@ -174,6 +174,9 @@ let g:syntastic_aggregate_errors = 1
 " GitGutter Turn off default keys
 let g:gitgutter_map_keys = 0
 
+" NERDTree
+let NERDTreeShowHidden=1
+
 "******************************
 "" Autocmd Rules
 "******************************
