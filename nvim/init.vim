@@ -12,8 +12,6 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
-Plug 'DAddYE/soda.vim'
-Plug 'chriskempson/base16-vim'
 
 " Search files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -91,34 +89,10 @@ set wildmenu " visual autocomplete for command menu"
 
 set fileformats=unix,dos,mac
 
-set t_Co=256
 set cursorline
 
-set guioptions=egmrti
-set gfn=Monospace\ 10
-
-colorscheme soda  "onedark
-
-if has("gui_running")
-  if has("gui_mac") || has("gui_macvim")
-    set guifont=Menlo:h12
-    set transparency=7
-  endif
-else
-  let g:CSApprox_loaded = 1
-
-  if $COLORTERM == 'gnome-terminal'
-    set term=gnome-256color
-  else
-    if $TERM == 'xterm'
-      set term=xterm-256color
-    endif
-  endif
-endif
-
-if &term =~ '256color'
-  set t_ut=
-endif
+set background=dark
+colorscheme onedark
 
 set title
 set titleold="Terminal"
