@@ -1,7 +1,7 @@
 ###### /me Moved to VIM/NeoVim
 
 ## NVIM (current)
-[![NVIM](https://github.com/zvlex/dotfiles/blob/master/img/myvim.png)](https://github.com/zvlex/dotfiles)
+[![NVIM](https://github.com/zvlex/dotfiles/blob/master/img/neovim.png)](https://github.com/zvlex/dotfiles)
 
 ## My Emacs dotfiles (old)
 
