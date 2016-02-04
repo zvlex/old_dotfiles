@@ -12,6 +12,7 @@ Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
+Plug 'w0ng/vim-hybrid'
 
 " Search files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -92,7 +93,7 @@ set fileformats=unix,dos,mac
 set cursorline
 
 set background=dark
-colorscheme onedark
+colorscheme hybrid  " onedark
 
 set title
 set titleold="Terminal"
@@ -153,6 +154,9 @@ let g:gitgutter_map_keys = 0
 
 " NERDTree
 let NERDTreeShowHidden=1
+
+" RSpec
+let g:rspec_command = "!rspec --color --require spec_helper {spec}"
 
 "******************************
 "" Autocmd Rules
@@ -216,6 +220,12 @@ let g:UltiSnipsExpandTrigger="<C-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-b>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 let g:UltiSnipsEditSplit="vertical"
+
+" RSpec.vim
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 "******************************
 " Airline customizations
