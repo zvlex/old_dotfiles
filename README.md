@@ -8,6 +8,11 @@
 [![Emacs](https://github.com/zvlex/dotfiles/blob/master/img/dotemacs.png)](https://github.com/zvlex/dotfiles)
 
 ## Fonts
+
+##### VIM
+- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+
+##### Emacs
 - [Luxi Mono](https://github.com/zvlex/dotfiles/tree/master/fonts/luxi-mono) (code)
 - [CPMono](https://github.com/zvlex/dotfiles/tree/master/fonts/cp-mono) (mode line, sr-speedbar, org-mode)
 
