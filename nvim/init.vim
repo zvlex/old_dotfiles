@@ -69,6 +69,7 @@ Plug 'Raimondi/delimitMate' " auto-completion for quotes, parens, brackets
 Plug 'tpope/vim-commentary'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/syntastic'
+Plug 'rking/ag.vim'
 
 call plug#end()
 
@@ -160,6 +161,9 @@ let NERDTreeShowHidden=1
 
 " RSpec
 let g:rspec_command = "!rspec --color --require spec_helper {spec}"
+
+" AG
+let g:ag_working_path_mode="r"
 
 "******************************
 "" Autocmd Rules
