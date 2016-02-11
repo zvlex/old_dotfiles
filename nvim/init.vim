@@ -27,6 +27,7 @@ Plug 'tpope/vim-endwise'
 
 " JavaScript
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'elzr/vim-json'
 
 " Vue.js
 Plug 'darthmall/vim-vue'
@@ -233,7 +234,6 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
-
 
 "" Vmap for maintain Visual Mode after shifting > and <
 vmap < <gv
