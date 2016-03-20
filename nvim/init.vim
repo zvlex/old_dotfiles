@@ -278,3 +278,18 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+
+" Emacs keybindings
+map <C-b> <Left>
+map <C-f> <Right>
+map <C-a> <Home> <S-I>
+map <C-e> <S-A>
+map <C-@> v
+map <C-k> dd
+map <C-y> y
+
+imap <C-a> <Home>
+imap <C-a> <Home>
+imap <C-e> <End>
+imap <C-k> <Esc>dd i
+imap <C-y> <Esc>p ki
