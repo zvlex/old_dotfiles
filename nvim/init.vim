@@ -13,6 +13,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
 Plug 'w0ng/vim-hybrid'
+Plug 'the31k/vim-colors-tayra'
 
 " Search files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -105,7 +106,7 @@ set fileformats=unix,dos,mac
 set cursorline
 
 set background=dark
-colorscheme hybrid " onedark
+colorscheme tayra " hybrid onedark
 
 set title
 set titleold="Terminal"
