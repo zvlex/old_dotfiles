@@ -41,6 +41,12 @@ Plug 'kchmck/vim-coffee-script'
 " Golang
 Plug 'fatih/vim-go'
 
+" Elixir
+Plug 'elixir-lang/vim-elixir'
+
+" Crystal
+Plug 'rhysd/vim-crystal'
+
 " Markup
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-haml'
@@ -71,6 +77,7 @@ Plug 'tpope/vim-commentary'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
+Plug 'bogado/file-line'
 
 call plug#end()
 
@@ -98,7 +105,7 @@ set fileformats=unix,dos,mac
 set cursorline
 
 set background=dark
-colorscheme hybrid  " onedark
+colorscheme hybrid " onedark
 
 set title
 set titleold="Terminal"
