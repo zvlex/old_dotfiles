@@ -219,6 +219,9 @@ noremap ,v :vsplit<CR>
 " NERDTree configuration
 nnoremap <F3> :NERDTreeToggle<CR>
 
+" Ctags
+nmap <F8> :TagbarToggle<CR>
+
 " no one is really happy until you have this shortcuts
 cnoreabbrev W! w!
 cnoreabbrev Q! q!
@@ -247,6 +250,16 @@ map <Leader>a :call RunAllSpecs()<CR>
 vmap < <gv
 vmap > >gv
 
+" Emacs keybindings
+map <C-b> <Left>
+map <C-f> <Right>
+map <C-a> <Home> <S-I>
+map <C-e> <S-A>
+map <C-@> v
+
+imap <C-a> <Home>
+imap <C-e> <End>
+
 "******************************
 " Airline customizations
 "******************************
@@ -267,7 +280,7 @@ if !exists('g:airline_powerline_fonts')
   let g:airline#extensions#readonly#symbol   = '⊘'
   let g:airline#extensions#linecolumn#prefix = '¶'
   let g:airline#extensions#paste#symbol      = 'ρ'
-  let g:airline_symbols.linenr    = '␊'
+  let g:airline_symbols.linenr    = '⊥'
   let g:airline_symbols.branch    = '⎇ '
   let g:airline_symbols.paste     = 'ρ'
   let g:airline_symbols.paste     = 'Þ'
@@ -286,18 +299,3 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
-
-" Emacs keybindings
-map <C-b> <Left>
-map <C-f> <Right>
-map <C-a> <Home> <S-I>
-map <C-e> <S-A>
-map <C-@> v
-map <C-k> dd
-map <C-y> y
-
-imap <C-a> <Home>
-imap <C-a> <Home>
-imap <C-e> <End>
-imap <C-k> <Esc>dd i
-imap <C-y> <Esc>p ki
