@@ -27,6 +27,7 @@ Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-endwise'
 
 " JavaScript
+Plug 'pangloss/vim-javascript'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'elzr/vim-json'
 
@@ -51,6 +52,7 @@ Plug 'rhysd/vim-crystal'
 " Markup
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-haml'
+Plug 'slim-template/vim-slim'
 Plug 'gorodinskiy/vim-coloresque'
 
 " Git
@@ -58,6 +60,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/gv.vim'
+Plug 'mattn/gist-vim'
 
 " Auto-Complete
 Plug 'Valloric/YouCompleteMe'
@@ -79,6 +82,8 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 Plug 'bogado/file-line'
+
+Plug 'benmills/vimux'
 
 call plug#end()
 
