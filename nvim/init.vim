@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
 " Appearance
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'mhinz/vim-startify'
 
 Plug 'joshdick/onedark.vim'
 Plug 'w0ng/vim-hybrid'
@@ -39,6 +40,9 @@ Plug 'mxw/vim-jsx'
 
 " CoffeeScript
 Plug 'kchmck/vim-coffee-script'
+
+" Racket
+Plug 'wlangstroth/vim-racket'
 
 " Golang
 Plug 'fatih/vim-go'
@@ -285,7 +289,7 @@ if !exists('g:airline_powerline_fonts')
   let g:airline#extensions#readonly#symbol   = '⊘'
   let g:airline#extensions#linecolumn#prefix = '¶'
   let g:airline#extensions#paste#symbol      = 'ρ'
-  let g:airline_symbols.linenr    = '⊥'
+  let g:airline_symbols.linenr    = ''
   let g:airline_symbols.branch    = '⎇ '
   let g:airline_symbols.paste     = 'ρ'
   let g:airline_symbols.paste     = 'Þ'
