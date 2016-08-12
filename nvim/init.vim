@@ -26,6 +26,7 @@ Plug 'tpope/vim-bundler'
 Plug 'thoughtbot/vim-rspec'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-endwise'
+Plug 'ngmy/vim-rubocop'
 
 " JavaScript
 Plug 'pangloss/vim-javascript'
@@ -46,6 +47,7 @@ Plug 'wlangstroth/vim-racket'
 
 " Golang
 Plug 'fatih/vim-go'
+Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 
 " Elixir
 Plug 'elixir-lang/vim-elixir'
@@ -171,6 +173,9 @@ let g:syntastic_style_warning_symbol = '⚠'
 let g:syntastic_auto_loc_list=1
 let g:syntastic_aggregate_errors = 1
 
+" Racket
+let g:syntastic_enable_racket_racket_checker = 1
+
 " GitGutter Turn off default keys
 let g:gitgutter_map_keys = 0
 
@@ -182,6 +187,17 @@ let g:rspec_command = "!rspec --color --require spec_helper {spec}"
 
 " AG
 let g:ag_working_path_mode="r"
+
+" Golang
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_interfaces = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+let g:syntastic_go_checkers = ['govet', 'errcheck', 'go']
 
 "******************************
 "" Autocmd Rules
