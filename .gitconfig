@@ -1,0 +1,15 @@
+[user]
+  name = Alexander Zutikov
+  email = zvlex.dev@gmail.com
+[core]
+  editor = vim
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  df = diff
+  dfs = diff --staged
+[push]
+  default = simple
