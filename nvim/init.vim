@@ -49,6 +49,9 @@ Plug 'wlangstroth/vim-racket'
 Plug 'fatih/vim-go'
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }
 
+Plug 'Shougo/deoplete.nvim'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
+
 " Elixir
 Plug 'elixir-lang/vim-elixir'
 
@@ -69,7 +72,7 @@ Plug 'junegunn/gv.vim'
 Plug 'mattn/gist-vim'
 
 " Auto-Complete
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
 
 " Ctags
 Plug 'majutsushi/tagbar'
@@ -188,7 +191,18 @@ let g:rspec_command = "!rspec --color --require spec_helper {spec}"
 " AG
 let g:ag_working_path_mode="r"
 
+" Enable autocomplete
+let g:deoplete#enable_at_startup = 1
+
 " Golang
+set completeopt+=noinsert
+set completeopt+=noselect
+
+let g:python3_host_prog  = '/usr/bin/python3.5'
+let g:python3_host_skip_check = 1
+
+let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_fields = 1
