@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
+Plug 'chriskempson/base16-vim'
 
 Plug 'joshdick/onedark.vim'
 Plug 'w0ng/vim-hybrid'
@@ -91,6 +92,7 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 Plug 'bogado/file-line'
+Plug 'stephpy/vim-yaml'
 
 Plug 'benmills/vimux'
 
@@ -117,10 +119,13 @@ set wildmenu " visual autocomplete for command menu"
 
 set fileformats=unix,dos,mac
 
-set cursorline
+" Fix slow scrolling!
+" http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html
+set lazyredraw
+set cursorline!
 
 set background=dark
-colorscheme tayra " hybrid onedark
+colorscheme hybrid " tayra  onedark
 
 set title
 set titleold="Terminal"
@@ -152,7 +157,7 @@ set nobackup
 set noswapfile
 
 " vim airline
-let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'base16_default'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#hunks#enabled = 0
@@ -295,14 +300,14 @@ vmap < <gv
 vmap > >gv
 
 " Emacs keybindings
-map <C-b> <Left>
-map <C-f> <Right>
-map <C-a> <Home> <S-I>
-map <C-e> <S-A>
-map <C-@> v
+" map <C-b> <Left>
+" map <C-f> <Right>
+" map <C-a> <Home> <S-I>
+" map <C-e> <S-A>
+" map <C-@> v
 
-imap <C-a> <Home>
-imap <C-e> <End>
+" imap <C-a> <Home>
+" imap <C-e> <End>
 
 "******************************
 " Airline customizations
