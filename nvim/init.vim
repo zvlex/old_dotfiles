@@ -295,9 +295,13 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
-"" Vmap for maintain Visual Mode after shifting > and <
+" Vmap for maintain Visual Mode after shifting > and <
 vmap < <gv
 vmap > >gv
+
+" RuboCop
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
 
 " Emacs keybindings
 " map <C-b> <Left>
