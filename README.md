@@ -10,7 +10,7 @@
 ## Fonts
 
 ##### VIM
-- [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+- Liberation Mono Regular (current)
 
 ##### Emacs
 - [Luxi Mono](https://github.com/zvlex/dotfiles/tree/master/fonts/luxi-mono) (code)
