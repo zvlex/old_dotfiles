@@ -39,10 +39,10 @@
 ;; turn bell off
 (setq ring-bell-function
       (lambda ()
-        (unless (memq this-command
-                      '(isearch-abort abort-recursive-edit exit-minibuffer keyboard-quit))
-          (ding))
-        ))
+	(unless (memq this-command
+		      '(isearch-abort abort-recursive-edit exit-minibuffer keyboard-quit))
+	  (ding))
+	))
 (setq ring-bell-function 'ignore)
 
 (load "server")
@@ -88,10 +88,10 @@
 (set-face-background 'highlight-indentation-current-column-face "#333333")
 
  (add-hook 'ruby-mode-hook
-           (lambda () (highlight-indentation-current-column-mode)))
+	   (lambda () (highlight-indentation-current-column-mode)))
 
  (add-hook 'coffee-mode-hook
-           (lambda () (highlight-indentation-current-column-mode)))
+	   (lambda () (highlight-indentation-current-column-mode)))
 
 (setq ruby-insert-encoding-magic-comment nil)
 ;; Robe
@@ -113,7 +113,7 @@
 (slime-setup '(slime-fancy))
 (setq slime-lisp-implementations
       '((clisp ("/usr/bin/clisp" "-q -I"))
-        (sbcl  ("/usr/local/bin/sbcl") :coding-system utf-8-unix)))
+	(sbcl  ("/usr/local/bin/sbcl") :coding-system utf-8-unix)))
 
 ;; Ruby
 (require 'inf-ruby)
@@ -128,9 +128,11 @@
 (define-key yas-minor-mode-map (kbd "<C-tab>") 'yas-expand)
 
 ;; Rinari
-(add-to-list 'load-path "~/.emacs.d/elpa/rinari")
-(require 'rinari)
-(global-rinari-mode)
+;; (add-to-list 'load-path "~/.emacs.d/elpa/rinari")
+;; (require 'rinari)
+;; (global-rinari-mode)
+(require 'projectile-rails)
+(projectile-rails-global-mode)
 
 ;; bindind.pry and press C-x C-q
 (add-hook 'after-init-hook 'inf-ruby-switch-setup)
@@ -207,9 +209,9 @@
 
 ;; сниппеты и автозакрытие парных скобок
 (setq web-mode-extra-snippets '(("erb" . (("name" . ("beg" . "end"))))
-                                ))
+				))
 (setq web-mode-extra-auto-pairs '(("erb" . (("open" "close")))
-                                  ))
+				  ))
 ;; подсвечивает парные скобки
 (show-paren-mode t)
 
@@ -220,7 +222,7 @@
 (defadvice web-mode-highlight-part (around tweak-jsx activate)
   (if (equal web-mode-content-type "jsx")
       (let ((web-mode-enable-part-face nil))
-        ad-do-it)
+	ad-do-it)
     ad-do-it))
 
 ;; JavaScript
@@ -266,8 +268,8 @@
 
  (setq gnus-secondary-select-methods '((nnml ""))
        mail-sources '((pop :server "pop.yandex.ru"
-                           :user "zvlexnum"
-                           :port 995)))
+			   :user "zvlexnum"
+			   :port 995)))
 
 ;;-----------------------
 ;; Emacs appearance setup ( вынести в отдельный файл )
@@ -287,9 +289,9 @@
       css-indent-offset 2)
 
 (add-hook 'ruby-mode-hook
-          (lambda ()
-            (setq tab-width 2)
-            ))
+	  (lambda ()
+	    (setq tab-width 2)
+	    ))
 (require 'go-mode)
 
 ;; Color Themes
@@ -358,36 +360,36 @@
 ;; PostgreSQL
 (setq sql-postgres-login-params
       '((user :default "zvlex")
-        (database :default "zvample_developmnet")
-        (password x)
-        (server :default "localhost")
-        (port :default 5432)))
+	(database :default "zvample_developmnet")
+	(password x)
+	(server :default "localhost")
+	(port :default 5432)))
 
 (add-hook 'sql-interactive-mode-hook
-          (lambda ()
-            (toggle-truncate-lines t)))
+	  (lambda ()
+	    (toggle-truncate-lines t)))
 
 (setq sql-connection-alist
       '((zvample-dev (sql-product 'postgres)
-                  (sql-port 5432)
-                  (sql-server "localhost")
-                  (sql-user "zvlex")
-                  (sql-password "")
-                  (sql-database "zvample_development"))
-        (testdb (sql-product 'postgres)
-                  (sql-port 5432)
-                  (sql-server "localhost")
-                  (sql-user "zvlex")
-                  (sql-password "")
-                  (sql-database "testdb"))))
+		  (sql-port 5432)
+		  (sql-server "localhost")
+		  (sql-user "zvlex")
+		  (sql-password "")
+		  (sql-database "zvample_development"))
+	(testdb (sql-product 'postgres)
+		  (sql-port 5432)
+		  (sql-server "localhost")
+		  (sql-user "zvlex")
+		  (sql-password "")
+		  (sql-database "testdb"))))
 
 ;; Customized from sql.el source
 (defun sql-read-connection (prompt)
   "Read a connection name."
   (let ((completion-ignore-case t))
     (completing-read prompt
-                     (mapcar #'(lambda (c) (car c))
-                             sql-connection-alist))))
+		     (mapcar #'(lambda (c) (car c))
+			     sql-connection-alist))))
 
 (defun pg-connect (connection)
   (interactive
@@ -399,9 +401,9 @@
   (sql-connect connection "PostgreSQL"))
 
 (add-hook 'sql-mode-hook
-          (lambda ()
-            (setq-local ac-ignore-case t)
-            (auto-complete-mode)))
+	  (lambda ()
+	    (setq-local ac-ignore-case t)
+	    (auto-complete-mode)))
 
 ;; Rbenv config
 (require 'rbenv)
