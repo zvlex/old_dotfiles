@@ -9,11 +9,17 @@ call plug#begin('~/.vim/plugged')
 
 " Appearance
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
 Plug 'DAddYE/soda.vim'
+Plug 'mhinz/vim-startify'
+Plug 'chriskempson/base16-vim'
+Plug 'w0ng/vim-hybrid'
+Plug 'the31k/vim-colors-tayra'
 
 " Search files
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'KabbAmine/zeavim.vim'
 
 " Ruby
 Plug 'tpope/vim-rails'
@@ -23,21 +29,37 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-endwise'
 
+" Golang
+Plug 'fatih/vim-go'
+Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+
+" Elixir
+Plug 'elixir-lang/vim-elixir'
+
+" Crystal
+Plug 'rhysd/vim-crystal'
+
 " JavaScript
+Plug 'pangloss/vim-javascript'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'elzr/vim-json'
 
 " Vue.js
 Plug 'darthmall/vim-vue'
 
+" React js
+Plug 'mxw/vim-jsx'
+
+" Racket
+Plug 'wlangstroth/vim-racket'
+
 " CoffeeScript
 Plug 'kchmck/vim-coffee-script'
-
-" Golang
-Plug 'fatih/vim-go'
 
 " Markup
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-haml'
+Plug 'slim-template/vim-slim'
 Plug 'gorodinskiy/vim-coloresque'
 
 " Git
@@ -45,6 +67,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/gv.vim'
+Plug 'mattn/gist-vim'
 
 " Auto-Complete
 Plug 'Valloric/YouCompleteMe'
@@ -64,6 +87,9 @@ Plug 'Raimondi/delimitMate' " auto-completion for quotes, parens, brackets
 Plug 'tpope/vim-commentary'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/syntastic'
+Plug 'rking/ag.vim'
+Plug 'bogado/file-line'
+Plug 'stephpy/vim-yaml'
 
 call plug#end()
 
@@ -94,7 +120,8 @@ set cursorline
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
-colorscheme soda  "onedark
+set background=dark
+colorscheme onedark  "onedark
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
@@ -177,6 +204,36 @@ let g:gitgutter_map_keys = 0
 " NERDTree
 let NERDTreeShowHidden=1
 
+" RSpec
+let g:rspec_command = "!rspec --color --require spec_helper {spec}"
+
+" AG
+let g:ag_working_path_mode="r"
+
+
+" Let <Tab> also do completion
+inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+" Close the documentation window when completion is done
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
+
+" Golang
+set completeopt+=noinsert
+set completeopt+=noselect
+
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_interfaces = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+let g:syntastic_go_checkers = ['govet', 'errcheck', 'go']
+
+let g:python3_host_prog  = '/usr/bin/python3.6'
+let g:python3_host_skip_check = 1
+
+
 "******************************
 "" Autocmd Rules
 "******************************
@@ -222,6 +279,9 @@ noremap ,v :vsplit<CR>
 " NERDTree configuration
 nnoremap <F3> :NERDTreeToggle<CR>
 
+" Ctags
+nmap <F8> :TagbarToggle<CR>
+
 " no one is really happy until you have this shortcuts
 cnoreabbrev W! w!
 cnoreabbrev Q! q!
@@ -239,6 +299,22 @@ let g:UltiSnipsExpandTrigger="<C-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-b>"
 let g:UltiSnipsJumpBackwardTrigger="<C-z>"
 let g:UltiSnipsEditSplit="vertical"
+
+" RSpec.vim
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+" Vmap for maintain Visual Mode after shifting > and <
+vmap < <gv
+vmap > >gv
+
+nmap <leader>z <Plug>Zeavim
+vmap <leader>z <Plug>ZVVisSelection
+nmap gz <Plug>ZVOperator
+nmap <leader><leader>z <Plug>ZVKeyDocset
+
 
 "******************************
 " Airline customizations
